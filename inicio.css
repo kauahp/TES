@@ -1,0 +1,424 @@
+:root{
+
+    --corprincipal:#8181ff;
+    --corsecundaria:#5b5beb;
+    --corterceraria:#3b3bb4;
+    --branco:#eeeeee;
+    --preto:#000000;
+    --texto:#353131;
+
+    --bastão:'Bebas Neue',cursive;
+    --secundaria:'Kdam Thmor Pro', sans-serif;
+    --depoimentos:'Lobster', cursive;
+}
+
+    *{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+body{
+background-color: #fff;
+width: 100%;
+
+}
+
+
+
+
+a{
+text-decoration:none;
+color:var(--preto)
+}
+
+a:hover{
+    color:rgb(83, 75, 75);
+    text-shadow: 5px 5px 5px var(--branco);}
+
+nav{
+background-color: var(--corprincipal);
+position: absolute;
+width: 100%;
+z-index: 1;
+}
+
+
+.nav__mae{
+    font-weight: 600;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    gap: 80px;
+    position: absolute;
+    left:10%
+}
+
+
+li::marker{
+    content:none;
+}
+
+.circles{
+    width:60px;
+    height:60px;
+    background-color:var(--corsecundaria);
+    margin:50px;
+    border-radius:50%;
+    position: absolute;
+
+}
+
+.circulowhatsapp{
+
+top:-40px;
+right:200px ;
+}
+
+.foto__whatsapp{
+
+position: absolute;
+top:23px;
+right:263px ;
+}
+
+.circuloinstagram{
+
+
+top:-40px;
+right:120px ;
+
+}
+
+.foto__instagram{
+
+position: absolute;
+top:25px;
+right:185px ;
+}
+
+.circulofacebook{
+
+
+top:-40px;
+right:40px ;
+
+}
+
+.foto__facebook{
+
+position: absolute;
+top:25px;
+right:105px ;
+}
+
+.circulogmail{
+
+
+top:-40px;
+right:-40px ;
+
+}
+
+.foto__gmail{
+position: absolute;
+top: 25px;
+right:25px ;
+}
+
+.limpeza__sofa h1{
+position: relative;
+top:150px;
+text-align: center;
+color: var(--corsecundaria);
+font-size: 40px;
+font-family: 'Josefin Sans', sans-serif;
+text-shadow: 10px 10px 10px rgb(136, 136, 136);
+padding: 15px;
+}
+
+.limpeza__sofa p{
+position: relative;
+top:200px;
+text-align: center;
+color:var(--texto);
+font-size:180px;
+font-family: 'Roboto', sans-serif;
+padding: 30px;
+}
+
+
+.limpeza__tapetes h1{
+position: relative;
+top:300px;
+text-align: center;
+color: var(--corsecundaria);
+font-size: 40px;
+font-family: 'Josefin Sans', sans-serif;
+text-shadow: 10px 10px 10px rgb(136, 136, 136);
+padding: 15px;
+
+}
+
+.limpeza__tapetes p{
+
+position: relative;
+top: 350px;
+text-align: center;
+color:var(--texto);
+font-size:18px;
+font-family: 'Roboto', sans-serif;
+padding: 15px;
+}
+
+.depoimentos{
+    font-size: clamp(8px,4vw,20px);
+    
+}
+
+.name__depoiment{
+    font-family:var(--depoimentos);
+
+}
+
+.rating{
+    
+    display: flex;
+    gap: 8%;
+
+}
+
+.img__stars{
+  position: absolute;
+  top: 75%;
+  left: 55%;
+  
+}
+
+.img__stars_top{
+    position: absolute;
+    top: 64%;
+    left: 50%;
+
+}
+
+.box{ 
+    background-color:rgba(125, 125, 255, 0.39);
+    position: relative;
+    height: 190px;
+    width: 300px;
+    border: 5px solid var(--corterceraria);
+    padding: 5px; 
+    border-radius:10px;
+    max-width: 100%;
+    
+}
+
+.depoimentos h1{
+position: relative;
+top: 420px;
+text-align: center;
+font-family: var(--secundaria);
+color: var(--corterceraria);
+font-size:45px;
+}
+
+ .julianasilva{
+    top:473px;
+    right:-40px ; 
+}
+
+ .lucas{
+    top:265px ;
+    right:-550px ;   
+}
+
+.aline{
+    top:55px ;
+    left:1050px ;
+}
+
+ .marcia{
+    top:80px ;
+    right:-40px ;
+}
+
+.julianaalmeida{
+    top:-130px ;
+    left:550px ;
+}
+
+ .helcio{
+    bottom:338px ;
+    left:1050px ;
+}
+
+.google .google{
+    position: absolute;
+    top: 1800px;
+    right: 450px;
+    max-width: 100%;
+    
+}
+
+.stars .stars{
+    position: absolute;
+    top: 1770px;
+    right: 450px;
+    max-width: 100%;
+}
+
+.antesedepois{
+    font-family: var(--secundaria);
+    color: var(--corterceraria);
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+    bottom:250px;
+    
+}
+
+
+
+.galeria{
+width:440px ;
+height:440px;
+overflow: hidden;
+border: 5px var(--corsecundaria) solid;
+border-radius: 10px;
+position: relative;
+bottom:180px;
+right:-35%;
+}
+
+.galeria .fotos{
+width:500%;
+animation-name: animacao;
+animation-duration: 20s;
+animation-iteration-count: infinite;
+}
+
+.galeria .fotos img{
+width:19.9% ;
+}
+
+.copyright{
+color: #000000;
+background-color: rgb(165, 156, 156);
+position: relative;
+width: 100%;
+height: 50px;
+top: 300%;
+text-align: center;
+line-height: 50px;
+
+}
+
+@media(max-width:420px){
+
+    .nav__mae{
+        position: absolute;
+        left: 10px;
+    }
+
+    .quem__somos{
+        right: 100px;
+    }
+
+    .circles{
+        width: 55px;
+        height: 55px;
+        top:-1%;
+    }
+
+    .fotos{
+        width: 25px;
+        height: 25px;
+        top: 7%;
+        
+    }
+
+    .box{
+        height:150px;
+        margin-left: 3%;
+    }
+
+    .marcia{
+        position: relative;
+        top: 150px;
+    }
+
+    .lucas{
+        position: relative;
+        left: 10%;
+        top: 680px;
+    }
+
+    .julianaalmeida{
+        position: relative;
+        left: 10%;
+        top: 360px;
+    }
+
+    .aline{
+        position: relative;
+        left: 10%;
+        top: 890px;
+    }
+
+    .helcio{
+        position: relative;
+        left: 10%;
+        top: 580px;
+    }
+
+    .antesedepois{
+        position: relative;
+        top: 650px;
+        margin-left:3%;
+    }
+
+    .galeria{
+        position: relative;
+        top: 700px;
+        left: 1%;
+        width: 90%;
+        margin-left: 3%;
+    }
+
+   .copyright{
+    top: 800px;
+   }
+
+}
+
+@media(max-width:856px){
+    .circles{
+        top: 6%;
+        position: absolute;
+    }
+
+    .fotos{
+        top: 70px;
+        position: absolute;
+    }
+}
+
+@media(max-width:620px){
+    .nav__mae{
+        font-size: 25px;
+        
+    }
+
+    .quem__somos{
+        position: relative;
+        left: 50px;
+    }
+
+    .areade__atuacao{
+        position: relative;
+        left: 50px;
+    }
+}
